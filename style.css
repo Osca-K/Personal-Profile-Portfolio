@@ -1,0 +1,63 @@
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /*Styling the navigation top bar section*/
+
+.tob-bar
+{
+   
+    background-color: rgba(225,225,225,0.35);
+    
+
+}
+
+.topbar-content{
+    
+  min-height: 90px;
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    
+
+}
+.nav{
+
+   
+  
+
+}
+
+.nav-list{
+
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+
+}
+
+.nav-item{
+
+}
+  
+  
+  
+ 

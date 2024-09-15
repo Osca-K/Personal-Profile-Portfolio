@@ -15,12 +15,25 @@
     color: inherit;
   }
 
+  body{
+    padding-top: 60px;
+  }
+
   /*Styling the navigation top bar section*/
+
+  .header{
+    position: fixed;
+    top: 0px;
+    width:100%
+    
+  }
 
 .tob-bar
 {
    
-    background-color: rgba(225,225,225,0.35);
+    background-color: rgba(19, 15, 15, 0.1);
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(31, 29, 32, 0.5);
     
 
 }
@@ -39,8 +52,6 @@
 }
 .nav{
 
-   
-  
 
 }
 
@@ -51,21 +62,48 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 30px;
+  
 
-  transition: all 0.3s;
+  transition: all 0.7s;
 
+}
+
+.nav-item a {
+  display: inline-block; /* Ensures the background color only covers the content */
+  padding: 8px 15px; /* Adjust padding as needed for spacing */
+  border-radius: 10px;
 }
 
 .nav-item{
 
 }
 
+/*
 .nav-item:hover{
 
     
     color: rgb(10, 10, 10);
     background-color: rgb(56, 74, 74);
     border-radius: 2px;
+}*/
+
+nav ul li {
+  
+
+
+}
+nav ul li a:hover {
+  background-color: rgba(0, 189, 195, 0.8);
+  
+  border-radius: 10px;
+}
+
+
+.btnContacts{
+  color: white;
+  background-color: #0071e3;
+  padding: 8px 10px;
+  border-radius: 100px;
 }
 
   

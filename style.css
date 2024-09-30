@@ -51,8 +51,18 @@
     
 
 }
-.nav{
-
+.Logo{
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.nav
+{
+  display: flex;
+  flex-grow: 1; 
+  justify-content: center; 
+  margin: 0 20px;
 
 }
 

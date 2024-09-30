@@ -182,7 +182,7 @@ main{
 .Profile-Picture img {
   height: 350px;
   border-radius: 60%;
-  border: 5px solid rgba(0, 189, 195, 0.5); 
+  border: 2px solid rgba(0, 189, 195, 0.8); 
 }
 
 .Bio {
@@ -199,18 +199,7 @@ main{
   line-height: 1.5;
 }
 
-/* Styling for the special border around my name */
-.Bio::before {
-  content: "Headline about me";
-  position: absolute;
-  top: -18px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #1a1a1a; 
-  padding: 0 10px;
-  color: white;
-  font-weight: bold;
-}
+
 
 .Socials {
   margin-top: 30px;
@@ -226,3 +215,11 @@ main{
   width: 40px;
   object-fit: contain;
 }
+
+
+/*Profesion Section and Styling*/
+
+
+
+
+

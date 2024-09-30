@@ -201,7 +201,7 @@ main{
 
 /* Styling for the special border around my name */
 .Bio::before {
-  content: "Hey! I am Osca";
+  content: "Headline about me";
   position: absolute;
   top: -18px;
   left: 50%;

@@ -138,9 +138,16 @@ nav ul li
 .btnContacts
 {
   color: white;
-  background-color: #0071e3;
+  
+  background-color: #043f7a;
   padding: 8px 10px;
   border-radius: 100px;
+  transition: all 0.3s;
+}
+.btnContacts:hover{
+
+  background-color: #177ee6;
+  transform: scale(1.1);
 }
 
   

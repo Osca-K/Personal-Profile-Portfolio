@@ -190,14 +190,14 @@ main{
   position: relative;
   padding: 20px;
   border: 2px solid rgba(0, 189, 195, 0.8); 
-  border-radius: 15px;
+  border-radius: 45px;
 }
 
-.Bio-Tittle {
+/* .Bio-Tittle {
   margin-top: 20px;
   font-size: 1.2em;
   line-height: 1.5;
-}
+} */
 
 
 

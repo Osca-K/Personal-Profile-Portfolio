@@ -27,6 +27,11 @@
     position: fixed;
     top: 0;
     width:100%;
+
+    display: flex;
+    justify-content: center;
+
+    
     
     
   }
@@ -37,6 +42,10 @@
   /*border-radius: 50px;*/
   box-shadow: 0 0 10px rgba(46, 159, 211, 0.7);
   backdrop-filter: blur(12);
+
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
 }
 
 .topbar-content{

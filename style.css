@@ -25,7 +25,7 @@
 
   .header{
     position: fixed;
-    top: 0;
+    top: 0px;
     width:100%;
 
     display: flex;
@@ -38,9 +38,9 @@
 
 .top-bar
 {
-  background-color: rgba(212, 150, 150, 0.09); 
+  background-color: rgba(8, 6, 6, 0.09); 
   /*border-radius: 50px;*/
-  box-shadow: 0 0 10px rgba(46, 159, 211, 0.7);
+  box-shadow: 0 0 7px rgba(185, 223, 238, 0.7);
   backdrop-filter: blur(12);
 
   width: 100%;
@@ -171,63 +171,6 @@ main{
   
   
 }
-
-.Profile-Content {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  gap: 40px; 
-  max-width: 1200px;
-  margin: 0 auto; 
-  padding: 20px;
-}
-
-.Profile-Picture {
-  flex: 1; 
-  display: flex;
-  justify-content: flex-start;
-}
-
-.Profile-Picture img {
-  height: 350px;
-  border-radius: 60%;
-  border: 2px solid rgba(0, 189, 195, 0.8); 
-}
-
-.Bio {
-  flex: 2; 
-  position: relative;
-  padding: 20px;
-  border: 2px solid rgba(0, 189, 195, 0.8); 
-  border-radius: 45px;
-}
-
-/* .Bio-Tittle {
-  margin-top: 20px;
-  font-size: 1.2em;
-  line-height: 1.5;
-} */
-
-
-
-.Socials {
-  margin-top: 30px;
-}
-
-.Socials-Links {
-  display: flex;
-  gap: 30px;
-}
-
-.Social-link img {
-  height: 40px; 
-  width: 40px;
-  object-fit: contain;
-}
-
-
-/*Profesion Section and Styling*/
-
 
 
 

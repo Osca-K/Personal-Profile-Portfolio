@@ -33,7 +33,6 @@
 
     
     
-    
   }
 
 .top-bar
@@ -172,6 +171,143 @@ main{
   
 }
 
+.Profile-Content {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  gap: 20px; /* Adds spacing between picture and content */
+  
+
+  border: 3px solid #272525; /* Color and width of the border */
+  border-radius: 15px; /* Adjust this to control the smoothness of corners */
+  padding: 20px;
+  
+  
+  margin-top: 50px;
+  background-color: #131212; /* Background color of the profile section */
+}
+
+.Profile-Picture {
+  flex: 1; /* Adjust width proportionately */
+  max-width: 250px; /* Restrict the image size */
+  text-align: center;
+}
+
+
+.Profile-Picture img {
+  width: 100%;
+  border-radius: 12%; /* Circular image */
+  box-shadow: 0 4px 8px rgba(185, 223, 238, 0.7);;
+}
+
+.Bio {
+  flex: 2; /* Adjust width proportionately */
+  padding: 20px;
+}
+
+.Bio h1 {
+  font-size: 2rem;
+  color: rgba(0, 189, 195, 1);
+  margin-bottom: 10px;
+}
+
+.Bio h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+.Bio-Tittle {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #aaa;
+}
+
+/* Profession Section */
+.Profession {
+  flex-basis: 100%; /* Take up full width */
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Profession-text {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add spacing between professions */
+  flex-wrap: wrap; /* Handle smaller screens */
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgba(0, 189, 195, 1);
+}
+
+.Profession-text span {
+  background-color: #043f7a;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.Profession-text span:hover {
+  transform: scale(1.1);
+}
+
+.Social- {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Socials-Links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.Social-link img {
+  width: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 50%; /* Optional: Circular icons */
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle background */
+  padding: 5px; 
+}
+
+.Social-link img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 189, 195, 0.5); /* Glow effect on hover */
+}
+
+
+
+
+
+ 
+
+/* Stykicing the data engineering section  */
+
+.Data-Engineering {
+  border: 3px solid #333; /* Color and width of the border */
+  border-radius: 15px; /* Smooth corners */
+  padding: 20px;
+  width: 1200px; /* Adjust width as needed */
+  margin: 20px auto; /* Center the section */
+  background-color: #0f0e0e; /* Background color */
+  text-align: center; /* Center content inside */
+}
+
+.data-image {
+  width: 100%; /* Make the image very wide */
+  height: auto; /* Keep aspect ratio */
+  max-height: 300px; /* Optional: limit height to fit design */
+  object-fit: cover; /* Ensures the image covers the container */
+  border-radius: 10px; /* Smooth corners for the image */
+}
 
 
 

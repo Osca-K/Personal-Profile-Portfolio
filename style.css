@@ -292,21 +292,21 @@ main{
 /* Stykicing the data engineering section  */
 
 .Data-Engineering {
-  border: 3px solid #333; /* Color and width of the border */
+  border: 3px solid #0f0f0f; /* Color and width of the border */
   border-radius: 15px; /* Smooth corners */
-  padding: 20px;
+  padding: 0px;
   width: 1200px; /* Adjust width as needed */
-  margin: 20px auto; /* Center the section */
+  margin: 2px auto; /* Center the section */
   background-color: #0f0e0e; /* Background color */
   text-align: center; /* Center content inside */
 }
 
-.data-image {
+.Data-img {
   width: 100%; /* Make the image very wide */
   height: auto; /* Keep aspect ratio */
   max-height: 300px; /* Optional: limit height to fit design */
   object-fit: cover; /* Ensures the image covers the container */
-  border-radius: 10px; /* Smooth corners for the image */
+  /*border-radius: 10px; /* Smooth corners for the image */
 }
 
 
